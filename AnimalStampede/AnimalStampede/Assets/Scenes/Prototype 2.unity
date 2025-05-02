@@ -474,7 +474,7 @@ Camera:
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 45
-  orthographic: 0
+  orthographic: 1
   orthographic size: 10
   m_Depth: -1
   m_CullingMask:
@@ -500,7 +500,7 @@ Transform:
   m_GameObject: {fileID: 534669902}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 30, z: 7.5}
+  m_LocalPosition: {x: 0, y: 25, z: 7.5}
   m_LocalScale: {x: 1, y: 20, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -686,7 +686,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 319804944}
   m_SourcePrefab: {fileID: 100100000, guid: 3bd8a450fcb589542a7843ea7bda2ee6, type: 3}
---- !u!114 &1992181908
+--- !u!114 &1992181913
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -695,7 +695,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 274719775}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0abcd22146845a54aa231dc63c0d0508, type: 3}
+  m_Script: {fileID: 11500000, guid: fba95e3d97677c14b8419eb33909cbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &2030740562
@@ -731,7 +731,6 @@ MonoBehaviour:
   - {fileID: 2456817351094043478, guid: 684da3e5af5126e4393c13bad3d62308, type: 3}
   - {fileID: 4554277087892361054, guid: 44a8cb912381fe64198e138b7a8e5339, type: 3}
   - {fileID: 5550516931976658472, guid: 7155d057c4ff3b64eb79592f604b5f2c, type: 3}
-  animalIndex: 0
 --- !u!4 &2030740564
 Transform:
   m_ObjectHideFlags: 0
@@ -805,7 +804,7 @@ PrefabInstance:
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3674158667691760066, guid: 5e1735287bf064c4c99c9e8a2e72ccd0, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1992181908}
+      addedObject: {fileID: 1992181913}
   m_SourcePrefab: {fileID: 100100000, guid: 5e1735287bf064c4c99c9e8a2e72ccd0, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
