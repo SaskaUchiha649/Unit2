@@ -698,6 +698,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fba95e3d97677c14b8419eb33909cbf8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!65 &1992181914
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274719775}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4597009, y: 0.13234863, z: 0.55363166}
+  m_Center: {x: 0, y: 0, z: -0.0000001937151}
 --- !u!1 &2030740562
 GameObject:
   m_ObjectHideFlags: 0
@@ -798,13 +819,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -4711704647755997258, guid: 5e1735287bf064c4c99c9e8a2e72ccd0, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 3674158667691760066, guid: 5e1735287bf064c4c99c9e8a2e72ccd0, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1992181913}
+    - targetCorrespondingSourceObject: {fileID: 3674158667691760066, guid: 5e1735287bf064c4c99c9e8a2e72ccd0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1992181914}
   m_SourcePrefab: {fileID: 100100000, guid: 5e1735287bf064c4c99c9e8a2e72ccd0, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
